@@ -3,7 +3,7 @@
   src: url(Roboto-Medium.ttf);
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1024px) and (max-width: 1199px) {
   body {
     margin: 0;
     padding: 0;
@@ -13,13 +13,13 @@
     display: flex;
     justify-content: center;
     max-width: 100%;
-    min-width: 1200px;
+    min-width: 1024px;
   }
 
   .menu {
     display: flex;
-    width: 1200px;
-    min-width: 1200px;
+    width: 1024px;
+    min-width: 1024px;
     height: 60px;
     align-items: center;
     padding: 0;
@@ -64,67 +64,66 @@
     border-radius: 8%;
     color: #00acdc;
   }
+}
 
-  @media (min-width: 1024px) and (max-width: 1199px) {
-    body {
-      margin: 0;
-      padding: 0;
-    }
+@media (min-width: 1200px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
 
-    .container {
-      display: flex;
-      justify-content: center;
-      max-width: 100%;
-      min-width: 1000px;
-    }
+  .container {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    min-width: 1200px;
+  }
 
-    .menu {
-      display: flex;
-      width: 1024px;
-      min-width: 1000px;
-      height: 60px;
-      align-items: center;
-      padding: 0;
-      justify-content: space-between;
-    }
+  .menu {
+    display: flex;
+    width: 1200px;
+    height: 60px;
+    align-items: center;
+    padding: 0;
+    justify-content: space-between;
+  }
 
-    .nav {
-      width: 621px;
-      display: flex;
-      padding-right: 50px;
-      justify-content: space-between;
-      font-family: Roboto, sans-serif;
-      font-size: 12px;
-      font-weight: 500;
-    }
+  .nav {
+    width: 621px;
+    display: flex;
+    padding-right: 50px;
+    justify-content: space-between;
+    font-family: Roboto, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+  }
 
-    .logo {
-      display: flex;
-      padding-left: 50px;
-    }
+  .logo {
+    display: flex;
+    padding-left: 50px;
+  }
 
-    .nav-menu {
-      display: flex;
-      cursor: pointer;
-      text-decoration: none;
-      color: #000;
-      text-transform: uppercase;
-      height: 40px;
-      align-items: center;
-    }
+  .nav-menu {
+    display: flex;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    height: 40px;
+    align-items: center;
+  }
 
-    .nav-menu:hover {
-      color: #00acdc;
-    }
+  .nav-menu:hover {
+    color: #00acdc;
+  }
 
-    .status {
-      color: #00acdc;
-    }
+  .status {
+    color: #00acdc;
+  }
 
-    .active {
-      border-bottom: 4px solid #00acdc;
-      border-radius: 8%;
-      color: #00acdc;
-    }
+  .active {
+    border-bottom: 4px solid #00acdc;
+    border-radius: 8%;
+    color: #00acdc;
   }
 }
