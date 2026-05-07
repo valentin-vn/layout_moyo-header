@@ -8,50 +8,60 @@ body {
 }
 
 .header {
-  display: flex;
   justify-content: center;
-  max-width: 100%;
-  min-width: 1200px;
+  width: 100%;
+  display: flex;
 }
 
 .menu {
+  max-width: 1200px;
   display: flex;
-  width: 1200px;
-  height: 60px;
+  width: 100%;
   align-items: center;
   padding: 0;
   justify-content: space-between;
+  margin: 0 50px;
 }
 
 .nav {
   width: 621px;
   display: flex;
-  padding-right: 50px;
+  padding-left: 0;
   justify-content: space-between;
   font-family: Roboto, sans-serif;
   font-size: 12px;
   font-weight: 500;
+  align-items: center;
 }
 
 .logo {
   display: flex;
-  padding-left: 50px;
 }
 
-.nav-menu {
+.nav-links {
+  margin-right: 20px;
   display: flex;
   color: #000;
   text-transform: uppercase;
-  height: 40px;
+  height: 60px;
   align-items: center;
   text-decoration: none;
+  justify-content: center;
+  position: relative;
+}
+
+.nav-links:last-child {
+  margin-right: 0;
 }
 
 ul {
   list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
 }
 
-.nav-menu:hover {
+.nav-links:hover {
   color: var(--blue-color);
 }
 
