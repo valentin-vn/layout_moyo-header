@@ -18,31 +18,31 @@ body {
   padding: 0 50px;
 }
 
-.nav__lists {
+.nav__list {
   display: flex;
   padding: 0;
 }
 
-.nav__list {
+.nav__item {
   display: flex;
   text-transform: uppercase;
   margin-right: 20px;
   list-style: none;
-  line-height: 60px;
   align-items: center;
 }
 
-.nav__list:last-child {
+.nav__item:last-child {
   margin-right: 0;
 }
 
-.nav_link {
+.nav__link {
+  line-height: 60px;
   color: #000;
   text-decoration: none;
   cursor: pointer;
 }
 
-.nav_link:hover {
+.nav__link:hover {
   color: var(--color-blue);
 }
 
